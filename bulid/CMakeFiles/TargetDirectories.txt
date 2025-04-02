@@ -1,0 +1,4 @@
+/home/mohamed-khaled/Desktop/lab_assignements/Pair assignement/bulid/CMakeFiles/calculator.dir
+/home/mohamed-khaled/Desktop/lab_assignements/Pair assignement/bulid/CMakeFiles/calculator_test.dir
+/home/mohamed-khaled/Desktop/lab_assignements/Pair assignement/bulid/CMakeFiles/edit_cache.dir
+/home/mohamed-khaled/Desktop/lab_assignements/Pair assignement/bulid/CMakeFiles/rebuild_cache.dir
