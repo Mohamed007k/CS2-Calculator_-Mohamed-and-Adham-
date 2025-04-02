@@ -4,14 +4,28 @@
 using namespace std;
 
 int main() {
-    cout << "Addition: " << add(5, 3) << std::endl;
-    cout << "Subtraction: " << subtract(10, 4) << std::endl;
-    cout << "Multiplication: " << multiply(6, 7) << std::endl;
-    cout << "Division: " << divide(20, 5) << std::endl;
-    cout << "Factorial: " << factorial(5) << std::endl;
-    cout << "GCD: " << gcd(24, 36) << std::endl;
-    cout << "LCM: " << lcm(12, 18) << std::endl;
-    cout << "Random: " << randomInRange(1, 10) << std::endl;
+    cout << "Welcome to the Calculator!" << endl;
+    cout << "You can enter expressions like: (3 + 4.5) * 2 / 5" << endl;
+    cout << "Type 'exit' to quit." << endl;
+
+    string input;
+    while (true) {
+        cout << "\nEnter an expression: ";
+        getline(cin, input);
+
+        if (input == "exit") {
+            cout << "Goodbye!" << endl;
+            break;
+        }
+
+        try {
+            double result = evaluateExpression(input);
+            cout << "Result: " << result << endl;
+        } catch (const exception& e) {
+            cout << "Error: " << e.what() << endl;
+        }
+    }
+
     return 0;
 }
 
