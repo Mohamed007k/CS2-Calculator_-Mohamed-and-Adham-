@@ -58,8 +58,7 @@ If you're running the code for the first time, follow these steps:
 ### Using g++
 Alternatively, you can compile manually using g++:
 ```sh
-g++ test.cpp calculator.cpp -o calculator
-./calculator
+g++ -o myApp.exe calculator.cpp test.cpp
 ```
 
 ## Step-by-Step Code Development
