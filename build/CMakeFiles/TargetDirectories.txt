@@ -1,3 +1,0 @@
-/Users/leo/This PC/Developing/CS2 Projects/CS2-Calculator/CS2-Calculator_-Mohamed-and-Adham-/build/CMakeFiles/trial.dir
-/Users/leo/This PC/Developing/CS2 Projects/CS2-Calculator/CS2-Calculator_-Mohamed-and-Adham-/build/CMakeFiles/edit_cache.dir
-/Users/leo/This PC/Developing/CS2 Projects/CS2-Calculator/CS2-Calculator_-Mohamed-and-Adham-/build/CMakeFiles/rebuild_cache.dir
