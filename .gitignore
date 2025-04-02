@@ -1,1 +1,5 @@
+# macOS system files
 .DS_Store
+
+# CMake build directory
+build/
